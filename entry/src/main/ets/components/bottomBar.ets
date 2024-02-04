@@ -30,7 +30,7 @@ export struct BottomBar {
           Text('PROFILE').fontSize(14).fontColor($r('app.color.color_white'))
         }
     }
-    .position({x:0, y: 100})
+    .position({x:0, y: 750})
     .width('100%')
     .height(83)
     .backgroundImage('#00000040')

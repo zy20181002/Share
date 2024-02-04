@@ -1,5 +1,6 @@
 import { BottomBar } from '../components/bottomBar'
 import {SearchBar} from '../components/searchBar'
+import {Discover} from './Discover'
 
 @Entry
 @Component
@@ -10,10 +11,7 @@ struct Index {
     Column() {
       SearchBar()
       Column() {
-        Text(this.message)
-          .fontSize(50)
-          .fontWeight(FontWeight.Bold)
-          .fontColor($r('app.color.color_white'))
+        Discover()
       }.height(750).width('100%').padding(20)
       BottomBar()
     }
