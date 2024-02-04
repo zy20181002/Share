@@ -1,3 +1,4 @@
+
 enum ACTIVE  {
   DISCOVER,
   ALBUMS,
@@ -12,11 +13,7 @@ export struct BottomBar {
         Column() {
           Image($r('app.media.ic_menu2')).width(24).height(24)
           Text('DISCOVER').fontSize(14).fontColor($r('app.color.color_white'))
-        }.onClick(e => {
-            if (this.active == ACTIVE.DISCOVER ) {
-
-            }
-        })
+        }
         Column() {
           Image($r('app.media.ic_settings2')).width(24).height(24)
           Text('ALBUMS').fontSize(14).fontColor($r('app.color.color_white'))

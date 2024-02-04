@@ -1,5 +1,5 @@
 import { BottomBar } from '../components/bottomBar'
-import {SearchBar} from '../components/searchBar'
+import { SearchBar } from '../components/searchBar'
 import {Discover} from './Discover'
 
 @Entry
@@ -9,7 +9,7 @@ struct Index {
 
   build() {
     Column() {
-      SearchBar()
+      SearchBar('')
       Column() {
         Discover()
       }.height(750).width('100%').padding(20)
