@@ -14,10 +14,12 @@ struct Index {
 
   build() {
     Column() {
-      SearchBar({ text: '' })
+      if (this.currentActive !== 'profile') {
+        SearchBar({ text: '' })
+      }
+
       Column() {
         if (this.currentActive === 'discover') {
-
           Discover()
         } else if (this.currentActive === 'albums') {
           Albums()

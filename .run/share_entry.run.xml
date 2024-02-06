@@ -1,0 +1,23 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="share_entry" type="HotReLoadTask" factoryName="Hot Reload">
+    <SYMBOL_DIRS>[]</SYMBOL_DIRS>
+    <MODULE_NAME />
+    <DEPLOY_MULTI_HAP>true</DEPLOY_MULTI_HAP>
+    <REINSTALL_APPLICATION>false</REINSTALL_APPLICATION>
+    <DEBUGGER_TYPE>Js Only</DEBUGGER_TYPE>
+    <MULTI_HAP_MODULE_DATA>[{&quot;enable&quot;:false,&quot;moduleName&quot;:&quot;entry&quot;,&quot;runtimeOS&quot;:&quot;HarmonyOS&quot;,&quot;select&quot;:true}]</MULTI_HAP_MODULE_DATA>
+    <SHOW_STATIC_VARIABLES>true</SHOW_STATIC_VARIABLES>
+    <LOGGING_TARGET_CHANNELS />
+    <ASAN_ENABLE_DATA>false</ASAN_ENABLE_DATA>
+    <USER_POST_ATTACH_COMMANDS>[]</USER_POST_ATTACH_COMMANDS>
+    <USER_STARTUP_COMMANDS>[]</USER_STARTUP_COMMANDS>
+    <INSTALL_FLAGS_CONFIG_KEY />
+    <LAUNCH_FLAGS_CONFIG_KEY />
+    <LAUNCH_ABILITY_CONFIG_TYPE />
+    <LAUNCH_ABILITY_CONFIG_VALUE />
+    <HOT_RELOAD_MODULE_NAME>entry</HOT_RELOAD_MODULE_NAME>
+    <method v="2">
+      <option name="Build.Hvigor.HotReloadBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>
